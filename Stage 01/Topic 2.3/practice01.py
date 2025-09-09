@@ -12,4 +12,20 @@ print(y)
 print(y[2])
 print(type(y))
 
-y[0] = "bottle"
+#y[0] = "bottle"
+
+i = 0
+while i < len(x):
+    print(x[i])
+    i = i+1
+
+print("---------------------------------")
+
+for i in range(len(x)):
+    print(x[i])
+
+print("---------------------------------")
+
+print(x[0:3])
+print(x[1:3])
+
